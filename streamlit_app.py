@@ -1,22 +1,6 @@
-entrada = input('Digite [E] para Entrar ou [S] para Sair:  ')
-if entrada == 'E':
-    print('Você entrou, parabéns.')
-else:
-    print('Você saiu.')
+import streamlit as st
 
-conhecer = '29/09/2023'
-
-data = input('Digite a data que nos conhecemos (dd/mm/aaaa): ')
-if data == conhecer:
-    print('Boa, acertou!')
-else:
-    print('errado!!!')
-
-local = 'Manga Rosa'
-
-bar = input('Digite o nome do bar que nos conhecemos: ')
-if bar == local:
-    print('Parabéns')
-
-else:
-    print(':(')
+st.title("🎈 My new app")
+st.write(
+    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+)
